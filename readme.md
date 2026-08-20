@@ -77,5 +77,8 @@ Your branch is up to date with 'origin/dev'.
 PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git branch -D test
 
 Deleted branch test (was 12b291b).
-PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> 
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions>
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git push origin --delete test
+To https://github.com/Belarts250/Gym-Git-Exercise-Solution.git
+ - [deleted]         test 
 ```
