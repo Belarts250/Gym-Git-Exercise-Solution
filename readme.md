@@ -82,3 +82,28 @@ PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git push origin --delete te
 To https://github.com/Belarts250/Gym-Git-Exercise-Solution.git
  - [deleted]         test 
 ```
+
+### Exercise 2
+
+``` bash 
+
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git add home.html
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git stash
+Saved working directory and index state WIP on dev: 6eb25d8 update readme for submission
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git stash list
+stash@{0}: WIP on dev: 6eb25d8 update readme for submission
+
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git stash
+Saved working directory and index state WIP on dev: 6eb25d8 update readme for submission
+
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git add team.html 
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git stash
+Saved working directory and index state WIP on dev: 6eb25d8 update readme for submission
+
+PS D:\learn\Gym-Git-Exercise-Solution\Git-solutions> git stash list
+stash@{0}: WIP on dev: 6eb25d8 update readme for submission
+stash@{1}: WIP on dev: 6eb25d8 update readme for submission
+stash@{2}: WIP on dev: 6eb25d8 update readme for submission
+
+```
+
